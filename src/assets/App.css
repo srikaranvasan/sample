@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Encode Sans', sans-serif;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 16px 5px 16px;
+}
+h2{
+    font-weight: 500;
+    font-size: 24px;
+}
+h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+}
+.top-btn{
+    padding: 9px 26px;
+    background-color: #E15500;
+    color:white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 18px;
+}
+.container{
+    padding: 30px 50px 0 50px;
+}
+input{
+    width:90%;
+    padding: 14px 20px 14px 5px;
+    outline: 0;
+    gap:49px;
+    border-width: 0 0 2px;
+    border-color: black;
+    font-size: 20px;
+}
+.submit-btn{
+    width:100%;
+    background-color: #E15500;
+    height:54px;
+    border: none;
+    padding:  14px 20px;
+    color: white;
+}
+.google-btn{
+    width: 100%;
+    background: #FFFFFF;
+    height:54px;
+    border: 1px solid #E15500;
+    box-sizing: border-box;
+    color:#E15500 ;
+    font-size: 20px;
+    font-weight:500;
+}
+a{
+    color: blue;
+    font-size: 20px;
+    font-weight:500;  
+}
+select{
+    width: 100%;
+    height: 54px;
+    font-size: 18px;
+    font-weight:500; 
+}
+.check-box{
+    width: 20px;
+
+}
+span{
+    color:blue;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.spacing{
+    padding: 15px 0;
+}
+small{
+    color: red;
+}
+option{
+    width: 100%;
+    height: 54px;
+    font-size: 18px;
+    font-weight:500;
+}
