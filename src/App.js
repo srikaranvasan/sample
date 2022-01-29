@@ -8,7 +8,7 @@ import Otp from './components/Otp';
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename="/sample">
         <Routes>
           <Route path="/" element={<Login />}/>
           <Route path="/signup" element={<Signup/>}/>
