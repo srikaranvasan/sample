@@ -8,14 +8,8 @@ import Otp from './components/Otp';
 function App() {
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
-        <Routes>
-          <Route path="/" element={<Login />}/>
-          <Route path="/signup" element={<Signup/>}/>
-          <Route path="/signupnext" element={<Signupnext/>}/>
-          <Route path="/otp" element={<Otp/>}/>
-        </Routes>
-      </Router>
+      
+         <Signup/>
     </div>
   );
 }
